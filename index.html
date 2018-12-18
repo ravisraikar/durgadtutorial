@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Caluculator</title>
+	</head>
+
+	<body>
+		<script src="main.js"></script>
+		<table>
+			<tr>
+				<td>
+					<label>First Value</label>
+				</td>
+				<td>
+					<input type="number" id = "val1" placeholder="First Val">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Second Value</label>
+				</td>
+				<td>
+					<input type="number" id = "val2" placeholder="Second Val">
+				</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<td>
+					<button type="submit" onclick="caluculte('add')" id = "addp">+</button>
+					<button type="submit" onclick="caluculte('sub')" id = "subp">-</button>
+					<button type="submit" onclick="caluculte('mul')" id = "mulp">*</button>
+					<button type="submit" onclick="caluculte('div')" id = "divp">/</button>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<!-- <label>Answer: </label> -->
+		<h4 id = "ans">Answer: </h4>
+	</body>
+</html>
